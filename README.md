@@ -1,4 +1,4 @@
-# 🏢 GlobalStore Inc. — Data Governance & Data Quality
+# 🏢 GlobalStore — Data Governance & Data Quality
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0-green)
@@ -16,6 +16,7 @@ sur les données de ventes mondiales de GlobalStore Inc.
 - Assurer la traçabilité des modifications
 
 ## 📁 Structure
+```text
 📦 data-governance-quality
 ┣ 📂 data
 ┃ ┣ 📄 dirty_superstore.csv
@@ -26,6 +27,7 @@ sur les données de ventes mondiales de GlobalStore Inc.
 ┃ ┗ 📄 tracabilite.csv
 ┣ 📂 images
 ┗ 📄 README.md
+```
 ## 🔍 Problèmes détectés
 | Problème | Impact |
 |---|---|
