@@ -1,0 +1,7 @@
+Date,Rôle,Action,Avant,Après
+2026-05-08,Data Steward,Suppression doublons,53854,52541
+2026-05-08,Data Steward,Suppression unknown Sales,52541,47167
+2026-05-08,Data Steward,Correction format Sales/Profit,str,float64
+2026-05-08,Data Steward,Correction format Dates,str,datetime
+2026-05-08,Data Steward,Suppression outliers Quantity=9999,47167,44763
+2026-05-08,Data Steward,Suppression dates incohérentes,44763,32404
