@@ -30,18 +30,28 @@ sur les données de ventes mondiales de GlobalStore Inc.
 - Assurer la traçabilité des modifications
 
 ## 📁 Structure
-```text
-📦 data-governance-quality
-┣ 📂 data
-┃ ┣ 📄 dirty_superstore.csv
-┃ ┗ 📄 cleaned_superstore.csv
-┣ 📂 notebooks
-┃ ┗ 📓 data_governance.ipynb
-┣ 📂 reports
-┃ ┗ 📄 tracabilite.csv
-┣ 📂 images
-┗ 📄 README.md
+
 ```
+📦 data-governance-quality
+ ┣ 📂 data
+ ┃ ┣ 📄 dirty_superstore.csv       ← Dataset brut
+ ┃ ┗ 📄 cleaned_superstore.csv     ← Dataset nettoyé
+ ┣ 📂 notebooks
+ ┃ ┗ 📓 data_governance.ipynb      ← Code Python complet
+ ┣ 📂 reports
+ ┃ ┗ 📄 tracabilite.csv            ← Journal des modifications
+ ┣ 📂 images
+ ┃ ┣ 🖼️ dashboard_avant.png
+ ┃ ┣ 🖼️ dashboard_apres.png
+ ┃ ┣ 🖼️ dashboard_tracabilite.png
+ ┃ ┣ 🖼️ missing_values.png
+ ┃ ┗ 🖼️ outliers_quantity.png
+ ┣ 📂 powerbi
+ ┃ ┗ 📊 Data_Governance_Dashboard.pbix
+ ┣ 📄 LICENSE
+ ┗ 📄 README.md
+```
+
 ## 🔍 Problèmes détectés
 | Problème | Impact |
 |---|---|
