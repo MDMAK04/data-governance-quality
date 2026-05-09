@@ -1,0 +1,11 @@
+Règle,Colonne,Type,Priorité,Statut
+Sales > 0,Sales,Exactitude,🔴 Critique,✅ Validée
+Quantity != 9999,Quantity,Validité,🔴 Critique,✅ Validée
+Ship Date >= Order Date,Ship/Order Date,Cohérence,🔴 Critique,✅ Validée
+0 doublons,Toutes,Unicité,🟠 Haute,✅ Validée
+Format dates datetime,Order/Ship Date,Format,🟠 Haute,✅ Validée
+Sales != unknown,Sales,Exactitude,🟠 Haute,✅ Validée
+Profit est un nombre,Profit,Format,🟠 Haute,✅ Validée
+Customer Name non vide,Customer Name,Complétude,🟡 Moyenne,✅ Validée
+Category non vide,Category,Complétude,🟡 Moyenne,✅ Validée
+Postal Code non vide,Postal Code,Complétude,🟡 Moyenne,✅ Validée
