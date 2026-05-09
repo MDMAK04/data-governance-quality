@@ -9,6 +9,20 @@
 Mise en place d'un système complet de **Data Governance** et **Data Quality** 
 sur les données de ventes mondiales de GlobalStore Inc.
 
+## 📖 Glossaire
+
+| Terme | Définition |
+|---|---|
+| Data Governance | Ensemble de règles et rôles pour gérer les données |
+| Data Quality | Mesure de la fiabilité et exactitude des données |
+| Data Owner | Responsable final des données |
+| Data Steward | Gestionnaire de la qualité au quotidien |
+| Data Custodian | Responsable du stockage technique |
+| Data Consumer | Utilisateur final des données |
+| Outlier | Valeur anormalement éloignée des autres |
+| NaN | Valeur manquante (Not a Number) |
+| Traçabilité | Historique des modifications des données |
+
 ## 🎯 Objectifs
 - Définir les rôles et règles de Data Governance
 - Détecter et corriger les problèmes de qualité
