@@ -54,6 +54,17 @@ sur les données de ventes mondiales de GlobalStore Inc.
 - ✅ 0 doublons
 - ✅ Formats corrects
 
+## 📊 Power BI Dashboard
+
+### Avant Nettoyage
+![Avant](images/dashboard_avant.png)
+
+### Après Nettoyage
+![Après](images/dashboard_apres.png)
+
+### Traçabilité & Gouvernance
+![Traçabilité](images/dashboard_tracabilite.png)
+
 ## 🛠️ Outils
 - Python 3.13 — Pandas, Matplotlib, Seaborn
 - Jupyter Notebook
